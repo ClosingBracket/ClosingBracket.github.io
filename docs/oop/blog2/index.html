@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CS371p Fall 2020: Tony Chang# What did you do this past week?
+This past week, I attended Prof. Downing&rsquo;s lectures and got started on the first project, Collatz. At the moment, I&rsquo;ve already cloned the GitLab repository, pushed my first commit to confirm the CI pipeline is working (half working because I have yet to fix the tests yet), and made my first few issues on GitLab issues for the workflow items I need to complete.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="CS371p Fall 2020: Tony Chang - Week 2" />
+<meta property="og:description" content="CS371p Fall 2020: Tony Chang# What did you do this past week?
+This past week, I attended Prof. Downing&rsquo;s lectures and got started on the first project, Collatz. At the moment, I&rsquo;ve already cloned the GitLab repository, pushed my first commit to confirm the CI pipeline is working (half working because I have yet to fix the tests yet), and made my first few issues on GitLab issues for the workflow items I need to complete." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ClosingBracket.github.io/docs/oop/blog2/" />
+
+<title>CS371p Fall 2020: Tony Chang - Week 2 | Tony Chang</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.3c9e84783baf2d769a109b77e99bab03dbba323662c7eb4a2ac9a78d3a5f9317.css" integrity="sha256-PJ6EeDuvLXaaEJt36ZurA9u6MjZix&#43;tKKsmnjTpfkxc="><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Tony Chang</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Blog</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog1/" class="">CS371p Fall 2020: Tony Chang - Week 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog2/" class="active">CS371p Fall 2020: Tony Chang - Week 2</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>CS371p Fall 2020: Tony Chang - Week 2</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="cs371p-fall-2020-tony-chang">
+  CS371p Fall 2020: Tony Chang
+  <a class="anchor" href="#cs371p-fall-2020-tony-chang">#</a>
+</h1>
+<figure class="image-container">
+    <img src="/static/tony.png"/> 
+</figure>
+
+<p><strong>What did you do this past week?</strong></p>
+<p>This past week, I attended Prof. Downing&rsquo;s lectures and got started on the first project, Collatz. At the moment, I&rsquo;ve already cloned the GitLab repository, pushed my first commit to confirm the CI pipeline is <em>working</em> (half working because I have yet to fix the tests yet), and made my first few issues on GitLab issues for the workflow items I need to complete.</p>
+<p><strong>What&rsquo;s in your way?</strong></p>
+<p>If you were to ask me this question yesterday, I would say I was stumped as to how to fix the unit tests that the workflow asks us to fix before proceeding to implement our simplest solution. It seems impossible to be able to find out the cycle lengths without first being able to have a program to calculate them. However, I was able to get this clarified by Prof. Downing on Friday, where he said I am able to use external sources to generate the correct answers to my unit tests before I implement my own solution in Collatz.cpp. Now, I am mostly just working to better understand all the intricacies of GitLab and the project.</p>
+<p><strong>What will you do next week?</strong></p>
+<p>Next week, I will work to fix the unit tests, implement my simplest solution, implement optimizations until I am able to reduce the runtime of my solution to pass the HackerRank tests, and finally generate my own tests for submission. These are the items that I need to do on the workflow.</p>
+<p><strong>What was your experience of assertions, Google Test, and gcov?</strong></p>
+<p>I was not previously aware of what assertions, Google Test, gcov were, but now that we have gone over what they do in class, it seems starkly important their role in software development. Assertions have their place as &ldquo;computational comments&rdquo; and help us verify preconditions, postconditions, and such that help us debug our code. Google Test is an incredibly valuable testing tools because they allow us to run a series of unit tests without any particular failure bringing down our testing program, and gcov is a very clever program that will allow us to determine how much of our code is being tested. I&rsquo;ve heard the term &lsquo;test coverage&rsquo; before but I think this is a very valuable example of it. As I develop code in the future for this class and other classes, I&rsquo;ll be more on the lookout on how to apply these testing concepts.</p>
+<p><strong>How are you doing and holding up?</strong></p>
+<p>I&rsquo;m doing okay! Online classes definitely has its benefits such as not being able to be in any certain physical location at a time &ndash; I think I&rsquo;ve definitely been enjoying being able to roll out of bed some days and tune into my lectures without much hassle. On the other hand, I think many other students and I are really missing the certain social element that comes with going to college due to the current social distancing guidelines &ndash; being able to sit and chat with friends before class starts, getting lunch with classmates, and so forth. I am not different, I definitely do miss those elements too.</p>
+<p><strong>What made you happy this week?</strong></p>
+<p>I think this three day weekend was definitely a godsend. Even after just two weeks of school, it was definitely well-timed to arrive for me to be able to rest, gather my thoughts, and be able to catch up on internship applications and other pieces of homework I have been neglecting.</p>
+<p><strong>What&rsquo;s your pick-of-the-week?</strong></p>
+<p>My pick of the week is <em>Amazon Web Services</em>! I worked closely with Amazon Web Services during my internship and got to understand its role in software development and service deployment. It definitely is one of the biggest players in the <em>IaaS (Infrastructure as a Service)</em> model alongside Microsoft Azure and Google Cloud, or what&rsquo;s more commonly known as a whole as Cloud Computing. It definitely has a lot of use cases for enterprise applications and takes a lot of the hosting complexities out of the guesswork for companies &ndash; they no longer have to worry about the logistical concerns of having a datacenter, on-site support, and so forth and so forth. I foresee that as more and more companies move to digital, cloud computing domains such as AWS will only grow in market revenue and importance to know as a software engineer.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

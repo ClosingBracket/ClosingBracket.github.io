@@ -11,13 +11,23 @@
     
     
     <item>
-      <title>CS371p Fall 2020: Tony Chang</title>
+      <title>CS371p Fall 2020: Tony Chang - Week 1</title>
       <link>https://ClosingBracket.github.io/docs/oop/blog1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ClosingBracket.github.io/docs/oop/blog1/</guid>
       <description>CS371p Fall 2020: Tony Chang# Where did you grow up?#I have grown up most of my life here in Austin, Texas.
 What was your favorite extracurricular activity in high school?#My favorite extracurricular activity in high school was Model UN. I very much enjoyed the people component of Model UN &amp;ndash; having the opportunity to interact with others, having fun representing interests that you weren&amp;rsquo;t too particularly invested in, and just having the opportunity to travel with other club members.</description>
+    </item>
+    
+    <item>
+      <title>CS371p Fall 2020: Tony Chang - Week 2</title>
+      <link>https://ClosingBracket.github.io/docs/oop/blog2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ClosingBracket.github.io/docs/oop/blog2/</guid>
+      <description>CS371p Fall 2020: Tony Chang# What did you do this past week?
+This past week, I attended Prof. Downing&amp;rsquo;s lectures and got started on the first project, Collatz. At the moment, I&amp;rsquo;ve already cloned the GitLab repository, pushed my first commit to confirm the CI pipeline is working (half working because I have yet to fix the tests yet), and made my first few issues on GitLab issues for the workflow items I need to complete.</description>
     </item>
     
   </channel>
