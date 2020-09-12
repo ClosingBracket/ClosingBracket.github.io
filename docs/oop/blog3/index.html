@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I worked to first implement the simplest possible working solution of Collatz. After I was able to confirm that was working, I then implemented the multiplicity of optimizations until my code was able to pass all three HackerRank tests. Afterwards, I followed subsequent steps on the workflow such as making my own unit tests to confirm code functionality and my own acceptance tests for merging on the public test repo.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="CS371p Fall 2020: Tony Chang - Week 3" />
+<meta property="og:description" content="CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I worked to first implement the simplest possible working solution of Collatz. After I was able to confirm that was working, I then implemented the multiplicity of optimizations until my code was able to pass all three HackerRank tests. Afterwards, I followed subsequent steps on the workflow such as making my own unit tests to confirm code functionality and my own acceptance tests for merging on the public test repo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ClosingBracket.github.io/docs/oop/blog3/" />
+
+<title>CS371p Fall 2020: Tony Chang - Week 3 | Tony Chang</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.3c9e84783baf2d769a109b77e99bab03dbba323662c7eb4a2ac9a78d3a5f9317.css" integrity="sha256-PJ6EeDuvLXaaEJt36ZurA9u6MjZix&#43;tKKsmnjTpfkxc="><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Tony Chang</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Blog</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog1/" class="">CS371p Fall 2020: Tony Chang - Week 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog2/" class="">CS371p Fall 2020: Tony Chang - Week 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog3/" class="active">CS371p Fall 2020: Tony Chang - Week 3</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>CS371p Fall 2020: Tony Chang - Week 3</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="cs371p-fall-2020-tony-chang">
+  CS371p Fall 2020: Tony Chang
+  <a class="anchor" href="#cs371p-fall-2020-tony-chang">#</a>
+</h1>
+<figure class="image-container">
+    <img src="/static/tony.png"/> 
+</figure>
+
+<p><strong>What did you do this past week?</strong></p>
+<p>This week, I worked to first implement the simplest possible working solution of Collatz. After I was able to confirm that was working, I then implemented the multiplicity of optimizations until my code was able to pass all three HackerRank tests. Afterwards, I followed subsequent steps on the workflow such as making my own unit tests to confirm code functionality and my own acceptance tests for merging on the public test repo. From there, I generated the documentation using doxygen and passed my code through astyle.</p>
+<p><strong>What&rsquo;s in your way?</strong></p>
+<p>I&rsquo;ve currently finished the project, so nothing is currently in my way at the moment! I was able to learn a lot about GitLab issues, the CI pipeline, and C++ code development.</p>
+<p><strong>What will you do next week?</strong></p>
+<p>For OOP, I don&rsquo;t have much left to do thankfully for Collatz. I&rsquo;ll continue attending lecture, taking the quizzes, and working on the weekly assignments such as Perusall and these blog posts.</p>
+<p><strong>What was your experience of Collatz, the starter code, the makefile, its optimizations, and exceptions?</strong></p>
+<p>I enjoyed the project. It was a nice dip-your-feet-in experience for C++ because the majority of the IO was handled through the starter code such as collatz_read and such. As a result, we only needed to handle the actual computation itself. Working through the starter code was fine, because it was well-formatted and not too many lines of code. I thought the makefile on the other hand was quite big and complex, because very seldom actually take a peek at the makefiles I use and usually just type <em>make clean</em> and <em>make run test</em> or such. As a result, I&rsquo;m not too quite familiar with the syntax of it all.</p>
+<p>I thought the optimizations that Prof. Downing mentioned to optimize our Collatz running time are very clever. Some are more straightforward such as the <em>if odd, simply do even calculation right there too</em> but others such as the max_cycle_length(b, e) = max_cycle_length(i, e) if <em>condition</em> was very useful.</p>
+<p>I think exceptions are incredibly handy. I always knew they existed through classes such as CS314 where you must throw an exception if a precondition wasn&rsquo;t met for example, but I&rsquo;ve never formally learned exactly how to catch them or what they are, so I thought that class was beneficial.</p>
+<p><strong>What made you happy this week?</strong></p>
+<p>This is related to my item from last week, but I very much enjoyed the four day week. Mondays for me are quite busy with many classes, so having that slight break was nice.</p>
+<p><strong>What is your pick-of-the-week?</strong></p>
+<p>My pick of the week is <em>vim</em>! vim is an text editor designed for use from a command-line interface, so it is incredibly useful for example, when you need to SSH into a machine and make some quick edits to a file. You don&rsquo;t need to go through your normal workflow of potentially opening up your IDE, making the edit, and pushing the changes onto some server. With vim, you can simply do <em>vim filename</em> and make the edit on the server! Just remember that you need to type <em>:wq</em> to save and exit.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

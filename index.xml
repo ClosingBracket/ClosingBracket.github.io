@@ -40,5 +40,15 @@ What was your favorite extracurricular activity in high school?#My favorite e
 This past week, I attended Prof. Downing&amp;rsquo;s lectures and got started on the first project, Collatz. At the moment, I&amp;rsquo;ve already cloned the GitLab repository, pushed my first commit to confirm the CI pipeline is working (half working because I have yet to fix the tests yet), and made my first few issues on GitLab issues for the workflow items I need to complete.</description>
     </item>
     
+    <item>
+      <title>CS371p Fall 2020: Tony Chang - Week 3</title>
+      <link>https://ClosingBracket.github.io/docs/oop/blog3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ClosingBracket.github.io/docs/oop/blog3/</guid>
+      <description>CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I worked to first implement the simplest possible working solution of Collatz. After I was able to confirm that was working, I then implemented the multiplicity of optimizations until my code was able to pass all three HackerRank tests. Afterwards, I followed subsequent steps on the workflow such as making my own unit tests to confirm code functionality and my own acceptance tests for merging on the public test repo.</description>
+    </item>
+    
   </channel>
 </rss>
