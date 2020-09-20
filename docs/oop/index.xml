@@ -40,5 +40,17 @@ This past week, I attended Prof. Downing&amp;rsquo;s lectures and got started on
 This week, I worked to first implement the simplest possible working solution of Collatz. After I was able to confirm that was working, I then implemented the multiplicity of optimizations until my code was able to pass all three HackerRank tests. Afterwards, I followed subsequent steps on the workflow such as making my own unit tests to confirm code functionality and my own acceptance tests for merging on the public test repo.</description>
     </item>
     
+    <item>
+      <title>CS371p Fall 2020: Tony Chang - Week 4</title>
+      <link>https://ClosingBracket.github.io/docs/oop/blog4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ClosingBracket.github.io/docs/oop/blog4/</guid>
+      <description>CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I learned about throwing and catching exceptions in C++, gained more understanding on the Voting project that we have recently been assigned, and string comparison in C++.
+What&amp;rsquo;s in your way?
+I feel intimidated by the scale of the Voting project. In the last project, we were given the run and test harness and only needed to handle the actual Collatz logic itself.</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I learned about throwing and catching exceptions in C&#43;&#43;, gained more understanding on the Voting project that we have recently been assigned, and string comparison in C&#43;&#43;.
+What&rsquo;s in your way?
+I feel intimidated by the scale of the Voting project. In the last project, we were given the run and test harness and only needed to handle the actual Collatz logic itself.">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="CS371p Fall 2020: Tony Chang - Week 4" />
+<meta property="og:description" content="CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I learned about throwing and catching exceptions in C&#43;&#43;, gained more understanding on the Voting project that we have recently been assigned, and string comparison in C&#43;&#43;.
+What&rsquo;s in your way?
+I feel intimidated by the scale of the Voting project. In the last project, we were given the run and test harness and only needed to handle the actual Collatz logic itself." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ClosingBracket.github.io/docs/oop/blog4/" />
+
+<title>CS371p Fall 2020: Tony Chang - Week 4 | Tony Chang</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.3c9e84783baf2d769a109b77e99bab03dbba323662c7eb4a2ac9a78d3a5f9317.css" integrity="sha256-PJ6EeDuvLXaaEJt36ZurA9u6MjZix&#43;tKKsmnjTpfkxc="><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>Tony Chang</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/about/" class="">About</a>
+  
+
+        </li>
+      
+    
+      
+        <li class="book-section-flat" >
+          
+  
+    <span>Blog</span>
+  
+
+          
+  
+  
+  
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog1/" class="">CS371p Fall 2020: Tony Chang - Week 1</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog2/" class="">CS371p Fall 2020: Tony Chang - Week 2</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog3/" class="">CS371p Fall 2020: Tony Chang - Week 3</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+    <a href="/docs/oop/blog4/" class="active">CS371p Fall 2020: Tony Chang - Week 4</a>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+        </li>
+      
+    
+  </ul>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>CS371p Fall 2020: Tony Chang - Week 4</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents"></nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="cs371p-fall-2020-tony-chang">
+  CS371p Fall 2020: Tony Chang
+  <a class="anchor" href="#cs371p-fall-2020-tony-chang">#</a>
+</h1>
+<figure class="image-container">
+    <img src="/static/tony.png"/> 
+</figure>
+
+<p><strong>What did you do this past week?</strong></p>
+<p>This week, I learned about throwing and catching exceptions in C++, gained more understanding on the Voting project that we have recently been assigned, and string comparison in C++.</p>
+<p><strong>What&rsquo;s in your way?</strong></p>
+<p>I feel intimidated by the scale of the Voting project. In the last project, we were given the run and test harness and only needed to handle the actual Collatz logic itself. However, in this project, we need to build up the entire project from the start. I&rsquo;ve never worked with C++ cin and cout so this will be a unique challenge for me to figure out.</p>
+<p><strong>What will you do next week?</strong></p>
+<p>This next week will be very busy for me, so I am afraid that I won&rsquo;t have as much time as I want to work on the project. I definitely need to start by making the GitLab repo, defining my issues, and most likely importing some of the items from last week&rsquo;s project such as the Makefile and the ci.yaml file. From there, I will need to make sure that the data is being read correctly from the file into the program.</p>
+<p><strong>What was your experience of exceptions, voting, and strcmp?</strong></p>
+<p>I think exceptions are a valuable tool for error handling. Assertions are very serious because they will halt the entire program if they appear, which will not always be the desired behavior. If we want to handle user error for example, it would be better to throw an exception and catch it somewhere higher up in order to gracefully handle the error. The voting system aforementioned in class too seems intuitive for a multi-candidate or multi-party election systems (which the United States is definitely not). It ensures that when only a plurality is achieved, we will be able to choose the candidate that <em>most</em> people will prefer as best as we can. strcmp is definitely a very handy function and actually something we implemented in CS429 String lab, so I was already familiar with what strcmp does and how it works from implementation. The exercise felt familiar to me so I don&rsquo;t have much to write about that.</p>
+<p><strong>What made you happy this week?</strong></p>
+<p>I&rsquo;ve had opportunities to see my friends this week through online mediums such as Zoom and Discord! It&rsquo;s not the same as being in-person but I&rsquo;m glad that we&rsquo;re still able to find ways to catch each other online regardless.</p>
+<p><strong>What is your tip-of-the-week?</strong></p>
+<p>My tip-of-the-week is a multi-monitor setup! I have personally found that in this semester of online classes where we have to consult a lot more video and text resources online, I have found that a multi-monitor has been dramatically beneficial to my productivity. Being able to work on code on one screen and look at project guidelines or resources on the other means that you don&rsquo;t need to spend time switching windows and going back-and-forth.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents"></nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
