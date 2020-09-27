@@ -62,5 +62,15 @@ What&amp;rsquo;s in your way?
 I feel intimidated by the scale of the Voting project. In the last project, we were given the run and test harness and only needed to handle the actual Collatz logic itself.</description>
     </item>
     
+    <item>
+      <title>CS371p Fall 2020: Tony Chang - Week 5</title>
+      <link>https://ClosingBracket.github.io/docs/oop/blog5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ClosingBracket.github.io/docs/oop/blog5/</guid>
+      <description>CS371p Fall 2020: Tony Chang# What did you do this past week?
+This week, I learned more about parameter variables, return variables, references, and pointers in class. Additionally, we learned about how the use of the keyword const modifies each of these types of variables in programs. Finally, we began to cover a short bit of arrays on Friday. In regards to the project, I worked to get my input/output code working (which Prof.</description>
+    </item>
+    
   </channel>
 </rss>
