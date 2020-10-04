@@ -72,5 +72,15 @@ I feel intimidated by the scale of the Voting project. In the last project, we w
 This week, I learned more about parameter variables, return variables, references, and pointers in class. Additionally, we learned about how the use of the keyword const modifies each of these types of variables in programs. Finally, we began to cover a short bit of arrays on Friday. In regards to the project, I worked to get my input/output code working (which Prof.</description>
     </item>
     
+    <item>
+      <title>CS371p Fall 2020: Tony Chang - Week 6</title>
+      <link>https://ClosingBracket.github.io/docs/oop/blog6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ClosingBracket.github.io/docs/oop/blog6/</guid>
+      <description>CS371p Fall 2020: Tony Chang# What did you do this past week?
+This past week, I attended class and learned more about arrays, equals() and iterators in class. I also took my Algorithms exam on Wednesday and worked to complete a few more HackerRanks. Additionally, I was able to finish my Voting project on time and implement all the correct optimizations to get full credit and pass all 3 HackerRank tests.</description>
+    </item>
+    
   </channel>
 </rss>
